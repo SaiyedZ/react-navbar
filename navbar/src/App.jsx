@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import TodoList from "./components/TodoList";
 import UserProfile from "./components/UserProfile";
 import Home from "./components/Home";
-import Counter from "./components/counter";
+import Counter from "./components/Counter";
 import List from "./components/List";
 
 // Global theme styles
@@ -24,14 +24,11 @@ const styles = {
 };
 
 function App() {
-  // Load theme from localStorage or default to "light"
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
   useEffect(() => {
-    // Apply theme styles
     document.body.style.background = styles[theme].bg;
     document.body.style.color = styles[theme].text;
-    // Save theme to localStorage
     localStorage.setItem("theme", theme);
   }, [theme]);
 
@@ -39,7 +36,6 @@ function App() {
     setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
 
-  // Navbar state
   const [activeTab, setActiveTab] = useState("home");
 
   return (
