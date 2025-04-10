@@ -118,7 +118,7 @@ function TodoList({ theme }) {
   return (
     <div style={styles.container}>
       <div style={styles.content}>
-        <h1 style={styles.heading}>📝 Your Todo List</h1>
+        <h1 style={styles.heading}>📝 Todo List</h1>
 
         <div style={styles.inputContainer}>
           <input
