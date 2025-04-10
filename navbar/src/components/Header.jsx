@@ -85,7 +85,7 @@ function Header({ activeTab, setActiveTab, theme, toggleTheme }) {
   return (
     <header style={styles.header}>
       <nav style={styles.nav}>
-        <div style={styles.logo}>✨ MyApp</div>
+       
 
         <ul style={styles.navList}>
           {navItem.map((item) => (

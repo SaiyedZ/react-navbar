@@ -170,7 +170,7 @@ const ElectricProductList = ({ theme }) => {
     <Fragment>
       <div style={styles.pageWrapper}>
         <div style={styles.container}>
-          <h2 style={styles.heading}>⚡ Product Manager</h2>
+          <h2 style={styles.heading}>⚡ Products</h2>
 
           {/* Add Product Form */}
           <form onSubmit={addProduct} style={styles.form}>
