@@ -7,7 +7,6 @@ import Home from "./components/Home";
 import Counter from "./components/Counter";
 import List from "./components/List";
 
-// Global theme styles
 const styles = {
   light: {
     bg: "#fff",
